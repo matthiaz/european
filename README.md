@@ -10,16 +10,18 @@ Methods relating to Europe and the European Union.
 ```php
 use peterkahl\European\European;
 
-echo European::isEuropeanCountry('RU'); # false
-echo European::isEuropeanCountry('AL'); # true
+echo (European::ShallTheUKRemainInTheEuropeanUnion()) ? 'yes' : 'no'; # yes
 
-echo European::isEEACountry('AR'); # false
-echo European::isEEACountry('NO'); # true
+echo (European::isEuropeanCountry('RU')) ? 'yes' : 'no';      # no
+echo (European::isEuropeanCountry('AL')) ? 'yes' : 'no';      # yes
 
-echo European::isEuropeanUnionCountry('CA'); # false
-echo European::isEuropeanUnionCountry('GB'); # true
+echo (European::isEEACountry('AR')) ? 'yes' : 'no';           # no
+echo (European::isEEACountry('NO')) ? 'yes' : 'no';           # yes
 
-echo European::countryUsesEuro('GB'); # false
-echo European::countryUsesEuro('MC'); # true
+echo (European::isEuropeanUnionCountry('CA')) ? 'yes' : 'no'; # no
+echo (European::isEuropeanUnionCountry('GB')) ? 'yes' : 'no'; # yes
+
+echo (European::countryUsesEuro('GB')) ? 'yes' : 'no';        # no
+echo (European::countryUsesEuro('MC')) ? 'yes' : 'no';        # yes
 
 ```

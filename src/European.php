@@ -2,7 +2,7 @@
 /**
  * European
  *
- * @version    2.0 (2018-09-28 06:03:00 GMT)
+ * @version    2.1 (2018-09-29 06:29:00 GMT)
  * @author     Peter Kahl <https://github.com/peterkahl>
  * @copyright  2018 Peter Kahl
  * @license    Apache License, Version 2.0
@@ -95,6 +95,15 @@ class European {
       }
     }
     return false;
+  }
+
+
+  /**
+   * Shall the UK remain in the European Union?
+   * @return boolean
+   */
+  static public function ShallTheUKRemainInTheEuropeanUnion() {
+    return true;
   }
 
 
