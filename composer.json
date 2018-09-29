@@ -1,0 +1,23 @@
+{
+    "name": "peterkahl/european",
+    "type": "library",
+    "description": "Methods relating to Europe and the European Union.",
+    "keywords": ["european-union", "currency-euro", "monetary-euro", "european-economic-area"],
+    "homepage": "https://github.com/peterkahl/european",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Peter Kahl",
+            "homepage": "https://www.cidrcalculator.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "peterkahl\\European\\": "src/"
+        }
+    }
+}
