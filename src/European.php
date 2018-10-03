@@ -2,7 +2,7 @@
 /**
  * European
  *
- * @version    2.2 (2018-10-03 03:40:00 GMT)
+ * @version    2.3 (2018-10-03 03:50:00 GMT)
  * @author     Peter Kahl <https://github.com/peterkahl>
  * @copyright  2018 Peter Kahl
  * @license    Apache License, Version 2.0
@@ -190,6 +190,11 @@ class European {
                   'eu'  => 1,
                   '€'   => 1,
                   ),
+    'fo' => array( # Faroe Islands (Denmark)
+                  'eea' => 1,
+                  'eu'  => 1,
+                  '€'   => 0,
+                  ),
     'fi' => array( # Finland
                   'eea' => 1,
                   'eu'  => 1,
@@ -354,6 +359,11 @@ class European {
                   'eea' => 1,
                   'eu'  => 1,
                   '€'   => 1,
+                  ),
+    'se' => array( # Svalbard and Jan Mayen Islands (Norway)
+                  'eea' => 1,
+                  'eu'  => 0,
+                  '€'   => 0,
                   ),
     'se' => array( # Sweden
                   'eea' => 1,
