@@ -2,7 +2,7 @@
 /**
  * European
  *
- * @version    2.1 (2018-09-29 06:29:00 GMT)
+ * @version    2.2 (2018-10-03 03:40:00 GMT)
  * @author     Peter Kahl <https://github.com/peterkahl>
  * @copyright  2018 Peter Kahl
  * @license    Apache License, Version 2.0
@@ -155,6 +155,11 @@ class European {
                   'eu'  => 1,
                   '€'   => 0,
                   ),
+    'by' => array( # Belarus
+                  'eea' => 0,
+                  'eu'  => 0,
+                  '€'   => 0,
+                  ),
     'hr' => array( # Croatia
                   'eea' => 1,
                   'eu'  => 1,
@@ -270,15 +275,15 @@ class European {
                   'eu'  => 1,
                   '€'   => 1,
                   ),
-    'mt' => array( # Malta
-                  'eea' => 1,
-                  'eu'  => 1,
-                  '€'   => 1,
-                  ),
     'mc' => array( # Monaco
                   'eea' => 0,
                   'eu'  => 0,
                   '€'   => 1,
+                  ),
+    'md' => array( # Moldova
+                  'eea' => 0,
+                  'eu'  => 0,
+                  '€'   => 0,
                   ),
     'me' => array( # Montenegro
                   'eea' => 0,
@@ -289,6 +294,11 @@ class European {
                   'eea' => 0,
                   'eu'  => 0,
                   '€'   => 0,
+                  ),
+    'mt' => array( # Malta
+                  'eea' => 1,
+                  'eu'  => 1,
+                  '€'   => 1,
                   ),
     'nl' => array( # Netherlands
                   'eea' => 1,
@@ -356,6 +366,11 @@ class European {
                   '€'   => 0,
                   ),
     'tr' => array( # Turkey
+                  'eea' => 0,
+                  'eu'  => 0,
+                  '€'   => 0,
+                  ),
+    'ua' => array( # Ukraine
                   'eea' => 0,
                   'eu'  => 0,
                   '€'   => 0,
